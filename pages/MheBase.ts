@@ -36,6 +36,7 @@ export enum exlHeader {
     classStartDate = 'class-start-date',
     classEndDate = 'class-end-date',
     masterCode = 'master-code',
+    studentGuid ='student-guid',
     studentId = 'student-id',
     emailAddress = 'email-address'
 }
@@ -48,15 +49,16 @@ export const excelHeadersEnum = {
     lastName: exlHeader.lastName,
     gradeLevel: exlHeader.gradeLevel,
     email: exlHeader.email,
-    username: exlHeader.userId,
+    username: exlHeader.username,
     password: exlHeader.password,
     classGUID: exlHeader.classGUID,
-    classID: exlHeader.classGUID,
+    classID: exlHeader.classID,
     className: exlHeader.className,
     classGradeLevel: exlHeader.classGradeLevel,
     classStartDate: exlHeader.classStartDate,
     classEndDate: exlHeader.classEndDate,
     masterCode: exlHeader.masterCode,
+    studentGuid: exlHeader.studentGuid,
     studentId: exlHeader.studentId,
     emailAddress: exlHeader.emailAddress
 }

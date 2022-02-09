@@ -59,3 +59,15 @@ describe('Protractor Typescript Demo', function () {
     });
 });
 
+// Extra file of xlsxx
+ // let address_of_cell = 'A1';
+        // let desired_cell = worksheet[address_of_cell];
+        // let desired_value = desired_cell.v;
+        // console.log("So value of A1", desired_value);
+        // console.log(XLSX.utils.sheet_to_json(worksheet));
+        // let json = XLSX.utils.sheet_to_json(worksheet);
+        // for (let data in json) {
+        //     console.log(json[data]);        //Display all value
+        //     console.log(json[data].fname);  //Displat all fname in column
+        //     console.log(json[data].age);    //Displat all age in column
+        // }
