@@ -1,22 +1,6 @@
-export interface ExcelHeaders {
-    userGuid: string;
-    userId: string;
-    role: string;
-    firstName: string;
-    lastName: string;
-    gradeLevel: string;
-
-    email: string;
-    username: string;
-    password: string;
-    classGUID: string;
-
-    classID: string;
-    className: string;
-    classGradeLevel: string;
-    classStartDate: string;
-    classEndDate: string;
-    masterCode: string;
+export interface Environment{
+    excelLinkForAdmin:string;
+    excelLinkForStudent:string;
 }
 
 export enum exlHeader {
