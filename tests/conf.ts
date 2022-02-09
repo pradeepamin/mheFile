@@ -2,7 +2,7 @@ import { Config } from 'protractor';
 
 export let config: Config = {
     framework: 'jasmine',
-    specs: ['./ExcelReadxlsx.js'],
+    specs: ['./excelReadxlsx-spec.js'],
     capabilities: {
         'browserName': 'chrome'
     },
